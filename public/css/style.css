@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'AR One';
+  font-weight: 400;
+  src: url(../fonts/AROneSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Young Serif';
+  font-weight: 400;
+  src: url(../fonts/YoungSerif-Regular.ttf);
+}
+
+body {
+  font-family: 'AR One', sans-serif;
+}
+
+.welcome {
+  text-align: center;
+  height: 100vh;
+}
+
+.main-nav {
+  font-family: 'Young Serif', serif;
+}
