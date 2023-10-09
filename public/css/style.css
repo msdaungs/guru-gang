@@ -24,3 +24,11 @@ body {
 .main-nav {
   font-family: 'Young Serif', serif;
 }
+
+.notice {
+  font-size: 12px;
+}
+
+.dropdown-toggle::after{
+  display: none;
+}
