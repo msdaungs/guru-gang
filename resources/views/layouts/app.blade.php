@@ -18,6 +18,7 @@
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
 
     {{-- css --}}
+    <link rel="stylesheet" href="{{ asset('css/reset.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
 </head>
@@ -61,7 +62,7 @@
                             </a>
 
                             <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">{{ Auth::user()->name }}</a>
+                                <a class="dropdown-item" href="{{ route('ownProfile') }}">{{ Auth::user()->name }}</a>
                                 <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                     {{ __('Chhuhna') }}

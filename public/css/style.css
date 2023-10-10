@@ -16,9 +16,8 @@ body {
   font-family: 'AR One', sans-serif;
 }
 
-.welcome {
-  text-align: center;
-  height: 100vh;
+.login .form-check-input {
+  margin-top: 0;
 }
 
 .main-nav {
@@ -31,4 +30,28 @@ body {
 
 .dropdown-toggle::after{
   display: none;
+}
+
+.pp-img {
+  position: relative;
+}
+
+.pp-img img {
+  border: 4px solid #72d8fd;
+}
+
+.pp-edit {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 4px;
+}
+
+.pp-edit .bi {
+  width: 25px;
+  height: 25px;
+  color: #72d8fd;
+}
+.pp-edit .bi:hover {
+  color: #0896cd;
 }
