@@ -17,7 +17,6 @@ use App\Http\Controllers\HomeController;
 
 
 Auth::routes();
-Route::get('/', function(){
-    return view('welcome');
-});
+Route::redirect('/', 'login');
+
 Route::get('/home', [HomeController::class, 'index'])->name('home');
