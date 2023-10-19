@@ -17,6 +17,9 @@
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
 
+    {{-- fontawsome --}}
+    <link rel="stylesheet" href="{{ asset('fontawesome/css/all.css') }}">
+
     {{-- css --}}
     <link rel="stylesheet" href="{{ asset('css/reset.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
