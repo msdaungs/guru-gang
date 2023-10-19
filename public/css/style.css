@@ -44,14 +44,13 @@ body {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 4px;
+  bottom: 10px;
 }
 
-.pp-edit .bi {
-  width: 25px;
-  height: 25px;
+.pp-edit i {
   color: #72d8fd;
 }
-.pp-edit .bi:hover {
+
+.pp-edit i:hover {
   color: #0896cd;
 }

@@ -21,4 +21,4 @@ Auth::routes();
 Route::redirect('/', 'login');
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
-Route::get('/myprofile', [UserController::class, 'showProfile'])->name('ownProfile');
+Route::get('/myProfile', [UserController::class, 'showProfile'])->name('ownProfile');
