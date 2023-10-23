@@ -11,7 +11,7 @@
     <title>{{ config('app.name') }}</title>
 
     {{-- favicon --}}
-    <link rel="icon" type="image/x-icon" href="{{ asset('img/favicon.jpeg') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('img/favicon.png') }}">
 
     {{-- bootstrap --}}
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
